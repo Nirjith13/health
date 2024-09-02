@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:hems/dashboard.dart';
 import 'package:hems/dbHelper/mongodb.dart';
 import 'package:hems/login.dart';
+import 'package:hems/profile.dart';
 import 'package:hems/signup.dart';  // Assuming this file contains the signup page
 
 void main() async {
@@ -30,6 +31,7 @@ class HealthcareApp extends StatelessWidget {
         '/dashboard': (context) => DashboardPage(),
         '/login': (context) => HealthcareLoginPage(), 
         '/signup': (context) => HealthcareSignupPage(), 
+        '/profile':(context)=> ProfilePage(),
       },
     );
   }
